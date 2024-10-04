@@ -1,4 +1,4 @@
-﻿// the ourAnimals array will store the following: 
+﻿// the ourAnimals array will store the following:
 using System.Collections;
 
 string animalSpecies = "";
@@ -25,8 +25,10 @@ for (int i = 0; i < maxPets; i++)
             animalSpecies = "dog";
             animalID = "d1";
             animalAge = "2";
-            animalPhysicalDescription = "medium sized cream colored female golden retriever weighing about 65 pounds. housebroken.";
-            animalPersonalityDescription = "loves to have her belly rubbed and likes to chase her tail. gives lots of kisses.";
+            animalPhysicalDescription =
+                "medium sized cream colored female golden retriever weighing about 65 pounds. housebroken.";
+            animalPersonalityDescription =
+                "loves to have her belly rubbed and likes to chase her tail. gives lots of kisses.";
             animalNickname = "lola";
             break;
 
@@ -34,8 +36,10 @@ for (int i = 0; i < maxPets; i++)
             animalSpecies = "dog";
             animalID = "d2";
             animalAge = "9";
-            animalPhysicalDescription = "large reddish-brown male golden retriever weighing about 85 pounds. housebroken.";
-            animalPersonalityDescription = "loves to have his ears rubbed when he greets you at the door, or at any time! loves to lean-in and give doggy hugs.";
+            animalPhysicalDescription =
+                "large reddish-brown male golden retriever weighing about 85 pounds. housebroken.";
+            animalPersonalityDescription =
+                "loves to have his ears rubbed when he greets you at the door, or at any time! loves to lean-in and give doggy hugs.";
             animalNickname = "loki";
             break;
 
@@ -43,7 +47,8 @@ for (int i = 0; i < maxPets; i++)
             animalSpecies = "cat";
             animalID = "c3";
             animalAge = "1";
-            animalPhysicalDescription = "small white female weighing about 8 pounds. litter box trained.";
+            animalPhysicalDescription =
+                "small white female weighing about 8 pounds. litter box trained.";
             animalPersonalityDescription = "friendly";
             animalNickname = "Puss";
             break;
@@ -97,9 +102,75 @@ do
         menuSelection = readResult.ToLower();
     }
 
-    Console.WriteLine($"You selected menu option {menuSelection}.");
-    Console.WriteLine("Press the Enter key to continue");
+    // Console.WriteLine($"You selected menu option {menuSelection}.");
+    // Console.WriteLine("Press the Enter key to continue");
 
-    // pause code execution
-    readResult = Console.ReadLine();
+    // // pause code execution
+    // readResult = Console.ReadLine();
+
+    switch (menuSelection)
+    {
+        case "1":
+            // List all of our current pet information
+            Console.WriteLine(
+                "this app feature is coming soon - please check back to see progress."
+            );
+            Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
+            break;
+
+        case "2":
+            // Add a new animal friend to the ourAnimals array
+            Console.WriteLine(
+                "this app feature is coming soon - please check back to see progress."
+            );
+            Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
+            break;
+
+        case "3":
+            // Ensure animal ages and physical descriptions are complete
+            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
+            break;
+
+        case "4":
+            // Ensure animal nicknames and personality descriptions are complete
+            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
+            break;
+
+        case "5":
+            // Edit an animal’s age
+            Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+            Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
+            break;
+
+        case "6":
+            // Edit an animal’s personality description
+            Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+            Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
+            break;
+
+        case "7":
+            // Display all cats with a specified characteristic
+            Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+            Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
+            break;
+
+        case "8":
+            // Display all dogs with a specified characteristic
+            Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+            Console.WriteLine("Press the Enter key to continue.");
+            readResult = Console.ReadLine();
+            break;
+
+        default:
+            break;
+    }
 } while (menuSelection != "exit");
