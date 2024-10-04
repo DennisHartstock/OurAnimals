@@ -1,0 +1,15 @@
+D:\C#\OurAnimals\bin\Debug\net8.0\OurAnimals.exe
+D:\C#\OurAnimals\bin\Debug\net8.0\OurAnimals.deps.json
+D:\C#\OurAnimals\bin\Debug\net8.0\OurAnimals.runtimeconfig.json
+D:\C#\OurAnimals\bin\Debug\net8.0\OurAnimals.dll
+D:\C#\OurAnimals\bin\Debug\net8.0\OurAnimals.pdb
+D:\C#\OurAnimals\obj\Debug\net8.0\OurAnimals.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\OurAnimals\obj\Debug\net8.0\OurAnimals.AssemblyInfoInputs.cache
+D:\C#\OurAnimals\obj\Debug\net8.0\OurAnimals.AssemblyInfo.cs
+D:\C#\OurAnimals\obj\Debug\net8.0\OurAnimals.csproj.CoreCompileInputs.cache
+D:\C#\OurAnimals\obj\Debug\net8.0\OurAnimals.sourcelink.json
+D:\C#\OurAnimals\obj\Debug\net8.0\OurAnimals.dll
+D:\C#\OurAnimals\obj\Debug\net8.0\refint\OurAnimals.dll
+D:\C#\OurAnimals\obj\Debug\net8.0\OurAnimals.pdb
+D:\C#\OurAnimals\obj\Debug\net8.0\OurAnimals.genruntimeconfig.cache
+D:\C#\OurAnimals\obj\Debug\net8.0\ref\OurAnimals.dll
